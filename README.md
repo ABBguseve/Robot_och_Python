@@ -1,3 +1,3 @@
 # Robotprojekt
 
-Här ligger all kod från rovbotbilen och Miniprojektet
+Här ligger all kod från robotbilen och Miniprojektet
