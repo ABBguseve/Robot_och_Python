@@ -1,0 +1,71 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(34, 58, 58);
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(126, 157, 185);
+}
+#messages {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    width:100%;
+    display: inline-block;
+    border:1px solid black;
+    max-height: 250px;
+    min-height: 250px;
+    overflow: scroll;
+    background-color: rgb(34, 58, 58);
+    color: white;
+}
+#messages span {
+    overflow-y: scroll;
+    overflow: scroll;
+}
+h1 {
+    color: white;
+}
+input {
+    width : 150px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    
+input[type=text] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    background-color: rgb(34, 58, 58);
+    color: white;
+    outline: none;
+    border: 0px;
+    box-shadow: 0px 1px gray;
+} 
+input[type=button] {
+    background: rgb(59, 99, 99);
+    padding: 10px 10px;
+    border: 0px;
+    color: white;
+}
+input[type=text]:focus {
+    box-shadow: 0px 1px cyan;
+} 
+input[type=button]:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+}
+
+input[type=button]:focus {
+    background-color: rgb(22, 36, 36);
+    outline: none;
+    color: white;
+}
+

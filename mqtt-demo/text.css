@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(34, 58, 58);
+    font-family: sans-serif;
+}
+
+.box{
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: darkslategray;
+    box-shadow: 3px 3px;
+}
+
+h1{
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: White;
+}
+
+a{
+    display: block;
+    margin: 20px auto;
+    margin-top: 30px;
+    text-align: center;
+    border: 0px;
+    padding: 10px 20px;
+    background: rgb(59, 99, 99);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    width: 100px;
+}
+
+a:hover{
+    background: lightblue;
+    color: black;
+}
